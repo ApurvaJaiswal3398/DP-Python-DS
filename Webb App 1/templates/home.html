@@ -146,8 +146,10 @@
     <!--Below JS link is important to diplay the datatables in the HTML file -->
     <script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
     <script>
+      // To make the dataframe look like one in its respective position (apply the properties of dataframe added 
+      // by jquery cdn, to make it interactive)
         $(function () {
-            $('.dataframe').DataTable();
+            $('.dataframe').DataTable();  //inspect the element of table to  get the classname
         });
     </script>
 </body>
